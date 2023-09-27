@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+  font-family: "Cubic11";
+  src: url("/fonts/Cubic_11_1.013_R.woff") format("woff"), url("/fonts/Cubic_11_1.013_R.woff2") format("woff2");
+  font-weight: normal;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+}
+body {
+  background: #422d5d;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,a,p,li {
+  color: #decff1;
+  font-family:  'Cubic11',"VT323", monospace;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-position: inside;
+}
+
+h1{
+  font-size: 1.625rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+h3{
+  font-size: 1.375rem;
+}
+h4{
+  font-size: 1.25rem;
+}
+h5{
+  font-size: 1.125rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #decff1;
+  border-radius: 0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #baa3d8;
+}
